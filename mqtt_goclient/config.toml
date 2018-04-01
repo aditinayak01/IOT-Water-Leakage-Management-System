@@ -1,0 +1,14 @@
+# DO NOT DELETE THIS FILE
+# Location : /etc/
+
+[sealclient]
+	loglevel="INFO"
+	logdirectory="/var/log/seal"
+
+[msgqueue]
+	name="mosquitto"
+	protocol="tcp"
+	host="10.0.8.67"
+	port="11883"
+	topic="sensor"
+	clientid="goseal"
